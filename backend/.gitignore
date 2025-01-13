@@ -31,3 +31,7 @@ lerna-debug.log*
 
 # misc
 .DS_Store
+
+#JWT_SECRET = "jdshsfiso"
+#DATABASE_URL="postgresql://main_owner:6gwEvuaim5xW@ep-noisy-brook-a1zvb4bs.ap-southeast-1.aws.neon.tech/main?sslmode=require"
+

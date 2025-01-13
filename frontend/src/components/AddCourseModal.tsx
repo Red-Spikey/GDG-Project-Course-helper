@@ -65,7 +65,7 @@ export const AddCourseModal = ({ isOpen, onClose, onSubmit }: AddCourseModalProp
             }
 
             // Send the request with the JWT token in Authorization header
-            const response = await axios.post(
+            await axios.post(
                 `${BACKEND_URL}/api/v1/addcourses/add`,
                 formData,
                 {

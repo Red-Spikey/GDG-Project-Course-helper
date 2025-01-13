@@ -51,7 +51,7 @@ export const Card = ({
     const sendRequest = async (id: string) => {
         // console.log("Deleted Data:", id);
         // Handle the updated data (e.g., send to backend or update local state)
-        const response = await axios.delete(`${BACKEND_URL}/api/v1/addcourses/delete`, {
+        await axios.delete(`${BACKEND_URL}/api/v1/addcourses/delete`, {
             headers: {
                 'Authorization': `${localStorage.getItem('token')}`  // Corrected method for accessing localStorage
             },

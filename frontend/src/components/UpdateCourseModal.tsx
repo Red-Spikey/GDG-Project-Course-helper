@@ -60,7 +60,7 @@ export const UpdateCourseModal = ({
             // }
 
             // Send the request with the JWT token in Authorization header
-            const response = await axios.put(
+            await axios.put(
                 `${BACKEND_URL}/api/v1/addcourses/update`,
                 formData,
                 {
